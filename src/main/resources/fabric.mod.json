@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "nether_wart_guard",
+  "version": "${version}",
+  "name": "Nether Wart Guard",
+  "description": "Client-side protection against accidentally breaking immature Nether Wart. Fully grown Nether Wart can be harvested normally.",
+  "authors": ["You"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.netherwartguard.NetherWartGuardClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
